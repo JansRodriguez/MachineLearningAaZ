@@ -1,0 +1,34 @@
+Aprendizagem Bayesiana (Teorema de Bayes - Abordagem Probabilística)
+
+Aplicação:
+Filtros de Spam
+Mineração de emoção
+Separação de Documentos
+
+Objetivo do algoritmo:
+Analisar os dados da tabela de dados histórica e gerar uma tabela de probabilidade.
+
+Procedimento do algoritmo:
+Ele seleciona apenas os dados de entrada e gera a estimativa de probabilidade desse dados de entrada.
+Uma multiplicação das segmentações de entrada.
+O algoritmo gera uma probabilidade(P(A), P(B), ..., P(Z)) para comparar os valores de entrada.
+
+Após a achar a porcentagem de cada probabilidade.
+Total = soma as partes
+PorcentagemIndividual = a parte dividido pelo total, vezes 100.
+
+O Valor encontrado de maneira mais assertiva, pode-se ser utilizada como uma heurística, para estipular valores.
+
+Podemos fazer a correlação Laplaciana, quando a tendencia das probabilidades é ser 0 (zero). É gerado uma correção, substituição. E com isso, modifica a base de dados, a tabela de probabilidade.
+
+Vantagens X Desvantagens
+
+    Vantagens:
+Rápido
+Simplicidade de interpretação
+Trabalha com altas dimensões
+Boas previsões em bases pequenas
+    Desvantagens:
+Combinação de características (atributos independentes) - cada par de características são independentes - nem sempre é verdade.
+
+Obs.: O algoritmo de Nayve Bayes tem desempenho interessante em tarefa de classificação de textos.
